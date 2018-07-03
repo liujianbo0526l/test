@@ -6413,7 +6413,7 @@ if (!("swf2js" in window)){(function(window)
         {
             this.load();
             this.preload = "auto";
-            this.autoplay = true;
+            this.autoplay = false;
             this.loop = false;
         };
         audio.src = sound.base64;
@@ -17768,7 +17768,7 @@ if (!("swf2js" in window)){(function(window)
                 {
                     this.load();
                     this.preload = "auto";
-                    this.autoplay = true;
+                    this.autoplay = false;
                     this.loop = false;
                 };
                 audio.src = sound.base64;
@@ -23926,7 +23926,7 @@ if (!("swf2js" in window)){(function(window)
             return function() {
                 audio.load();
                 audio.preload = "auto";
-                audio.autoplay = true;
+                audio.autoplay = false;
                 audio.loop = false;
                 var onLoad = sound.onLoad;
                 if (typeof onLoad === "function") {
@@ -23968,7 +23968,7 @@ if (!("swf2js" in window)){(function(window)
                     {
                         this.load();
                         this.preload = "auto";
-                        this.autoplay = true;
+                        this.autoplay = false;
                         this.loop = false;
                     };
                     audio.src = tag.base64;
